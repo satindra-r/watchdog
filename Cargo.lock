@@ -2619,8 +2619,7 @@ dependencies = [
 [[package]]
 name = "watchdog_utils_II"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fcdd334aa203e79e28aa63f1f55649eeb90f8b75277756b60cb73f015f3cac18"
+source = "git+https://github.com/satindra-r/watchdog-utils.git?branch=saturn%2Fgroups-fix#f375aee7b2efc4860613bb9d5d9512de7094d5b9"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
